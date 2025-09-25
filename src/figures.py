@@ -6,7 +6,7 @@ import os
 import math
 import cv2
 import numpy as np
-#import seaborn as sbn
+import seaborn as sbn
 import matplotlib.pyplot as plt
 import matplotlib.lines as lns
 
@@ -48,7 +48,7 @@ def create_album_bar(albums, imsize, n_wide, imspath):
         #Stack the images
         stacks.append(stack_images(images, imsize, n_wide, n_high, inv, vert = True))
 
-    #Create and save figure
+    #Create figure
     fig, axs = plt.subplots(1, 5, figsize = (len(categories)*2, (n_high/n_wide)*2), constrained_layout = True)
     for i, (stack, ax) in enumerate(list(zip(stacks, axs))):
         ax.imshow(stack, extent = [0, n_wide**2, 0, n_high*n_wide])
@@ -60,3 +60,52 @@ def create_album_bar(albums, imsize, n_wide, imspath):
     axs[0].set_yticks(range(0, (math.ceil(np.max(counts.values)/n_wide) + 1) * n_wide, n_wide))
     
     return fig
+
+
+def create_genre_rating_bar(albums, primary = False):
+    """
+    Creates a rating radar chart where the axes are the highest level genre for each album
+    """
+
+    #Create dataframes of ratings counts indexed by genre
+    if primary:
+        #Only use primary genre (Genre1)
+        counts = albums.value_counts(['Genre1','Rating']).reset_index(name='Count')
+        counts_pivot = counts.pivot(index='Genre1', columns='Rating', values='Count').fillna(0)
+        counts_pivot = counts_pivot.reindex(index=albums['Genre1'].value_counts().index[::-1])
+    else:
+        #Use all genres (Genre1,Genre2,Genre3)
+        albums_long = albums.melt(
+            id_vars='Rating', 
+            value_vars=['Genre1', 'Genre2', 'Genre3'],
+            var_name='Genre_Col', 
+            value_name='GenresAll'
+        )
+        albums_long = albums_long.dropna(subset=['GenresAll'])
+        counts = albums_long.value_counts(['GenresAll', 'Rating']).reset_index(name='Count')
+        counts_pivot = counts.pivot(index='GenresAll', columns='Rating', values='Count').fillna(0)
+        counts_pivot = counts_pivot.reindex(index=albums_long['GenresAll'].value_counts().index[::-1])
+
+    #Create the figure
+    ax = counts_pivot.plot(
+        kind='barh', 
+        figsize=(12,14),
+        stacked=True,
+        width=0.8,
+        colormap='inferno'
+    )
+    ax.tick_params(top=True, labeltop=True, bottom=True, labelbottom=True)
+    ax.spines.right.set_visible(False)
+    ax.legend(
+        bbox_to_anchor = [1, 0.95], 
+        loc='upper right',
+        title='Rating',
+        title_fontsize='x-large',
+        fontsize='x-large',
+        markerscale=1.5
+    )
+    plt.ylabel(None)
+    plt.title("Albums by Genre")
+    plt.tight_layout()
+
+    return ax
