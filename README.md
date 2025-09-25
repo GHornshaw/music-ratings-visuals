@@ -32,6 +32,6 @@ This figure is a custom bar chart made by loading and resizing the album cover a
 
 This figure shows that I have rated most albums 4/5 or 3/5. I have rated very few (only 6) albums 1/5 so far, likely because I am less willing to return to artists or genres that I have previously disliked.
 
-![A horizontal stacked bar chart showing the number of albums of each genre rated, coloured by the ratings given.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/.genre_rating_bar.png?raw=true)
+![A horizontal stacked bar chart showing the number of albums of each genre rated, coloured by the ratings given.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/genre_rating_bar.png?raw=true)
 
 This horizontal stacked bar chart shows the number of albums for each genre that have been rated, coloured by the ratings given. Unsurprisingly, the most common genres have been 'rock' and 'pop'. Some notable genres without many entries are disco, reggae, and punk- I should listen to more of them. Interestingly, most of the genres have quit a spread of ratings, but some stand out as much more liked - thrash metal, alt pop, and grunge, for instance. On the flip side, I don't seem to be a fan of art rock, ambient, and experimental music.
