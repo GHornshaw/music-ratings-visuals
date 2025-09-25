@@ -6,8 +6,9 @@ import os
 import math
 import cv2
 import numpy as np
+#import seaborn as sbn
 import matplotlib.pyplot as plt
-import seaborn as sbn
+import matplotlib.lines as lns
 
 from utils import stack_images
 

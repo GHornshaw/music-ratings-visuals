@@ -1,0 +1,208 @@
+,Artist,Title,Type,No. Songs,Bonus?,Genre,Year,Country,Languages,Rating,Fav. Song,Img,Genre1,Genre2,Genre3
+0,AC/DC,Back In Black,Album,10.0,,"['rock', 'hard rock', 'heavy metal']",1980,USA,English,3,Back In Black,BackInBlack.png,rock,hard rock,heavy metal
+1,Alanis Morissette,Jagged Little Pill,Album,12.0,,"['rock', 'alt rock', '']",1995,Canada,English,4,You Oughta Know,JaggedLittlePill.jpg,rock,alt rock,
+2,Alice in Chains,Facelift,Album,12.0,,"['rock', 'grunge', 'heavy metal']",1990,USA,English,4,Man In The Box,Facelift.jpg,rock,grunge,heavy metal
+3,Alice In Chains,Dirt,Album,13.0,,"['rock', 'grunge', 'hard rock']",1992,USA,English,4,Them Bones,Dirt.jpg,rock,grunge,hard rock
+5,All Time Low,So Wrong It's Right,Album,12.0,,"['rock', 'pop punk', 'pop rock']",2007,USA,English,3,Dear Maria Count Me In,SoWrongItsRight.jpg,rock,pop punk,pop rock
+6,All Time Low,Nothing Personal,Album,12.0,Yes (+1),"['rock', 'pop punk', 'pop rock']",2009,USA,English,5,Sick Little Games,NothingPersonal.jpg,rock,pop punk,pop rock
+7,All Time Low,Don't Panic,Album,12.0,Yes (+4),"['rock', 'pop punk', 'emo pop']",2012,USA,English,5,Outlines,DontPanic.jpg,rock,pop punk,emo pop
+8,All Time Low,Future Hearts,Album,12.0,Yes (+3),"['rock', 'pop punk', 'pop rock']",2015,USA,English,3,Something's Gotta Give,FutureHearts.jpg,rock,pop punk,pop rock
+9,Amy Winehouse,Back To Black,Album,11.0,No (+6),"['r&b', 'soul', 'neo soul']",2006,England,English,4,Back To Black,BackToBlack.png,r&b,soul,neo soul
+10,Arcade Fire,The Suburbs,Album,16.0,Yes (+2),"['rock', 'alt rock', 'baroque pop']",2010,Canada,English,2,The Suburbs,TheSuburbs.jpg,rock,alt rock,baroque pop
+11,Avenged Sevenfold,Avenged Sevenfold,Album,10.0,No (+1),"['rock', 'metal', '']",2007,USA,English,4,Afterlife,AvengedSevenfold.jpg,rock,metal,
+12,Avenged Sevenfold,Nightmare,Album,11.0,No (+1),"['rock', 'metal', '']",2010,USA,English,4,Nightmare,Nightmare.png,rock,metal,
+13,Azealia Banks,Broke With Expensive Taste,Album,16.0,No (+1),"['hip hop', 'dance pop', '']",2014,USA,English,2,212,BrokeWithExpensiveTaste.png,hip hop,dance pop,
+14,Beyonce,Cowboy Carter,Album,27.0,,"['country', 'pop', 'r&b']",2024,USA,English,3,Bodyguard,CowboyCarter.png,country,pop,r&b
+15,Bjork,Vespertine,Album,12.0,No (+1),"['trip hop', 'art pop', 'ambient']",2001,Iceland,English,1,Unison,Vespertine.png,trip hop,art pop,ambient
+16,Black Country New Road,Ants From Up There,Album,10.0,,"['rock', 'art rock', 'folk rock']",2022,England,English,1,Chaos Space Marine,AntsFromUpThere.jpg,rock,art rock,folk rock
+22,Black Honey,Black Honey,Album,11.0,,"['rock', 'alt rock', '']",2018,England,English,4,Just Calling,BlackHoney.png,rock,alt rock,
+24,Black Honey,Written & Directed,Album,10.0,,"['rock', 'alt rock', '']",2021,England,English,2,Beaches,Written&Directed.jpg,rock,alt rock,
+25,Black Honey,A Fistful Of Peaches,Album,12.0,,"['rock', 'alt rock', '']",2023,England,English,4,Out Of My Mind,AFistfulOfPeaches.jpg,rock,alt rock,
+26,Black Sabbath,Black Sabbath,Album,8.0,,"['rock', 'metal', '']",1970,England,English,2,Black Sabbath,BlackSabbath.jpg,rock,metal,
+27,Black Sabbath,Paranoid,Album,8.0,,"['rock', 'metal', '']",1970,England,English,2,Paranoid,Paranoid.jpg,rock,metal,
+28,Black Veil Brides,We Stitch These Wounds,Album,12.0,,"['rock', 'metal', 'metalcore']",2010,USA,English,2,Carolyn,WeStitchTheseWounds.jpg,rock,metal,metalcore
+30,Blondie,Parallel Lines,Album,12.0,No (+2),"['pop', 'pop rock', 'new wave']",1978,USA,English,3,Heart of Glass,ParallelLines.png,pop,pop rock,new wave
+31,Bob Dylan,Highway 61 Revisited,Album,9.0,,"['rock', 'blues rock', 'folk rock']",1965,USA,English,4,Ballad Of A Thin Man,Highway61Revisited.jpg,rock,blues rock,folk rock
+32,Boney M,Take The Heat Off Me,Album,8.0,Yes (+2),"['funk', 'r&b', 'reggae']",1976,Germany,English,3,Take The Heat Off Me,TakeTheHeatOffMe.jpg,funk,r&b,reggae
+33,Bon Iver,"For Emma, Forever Ago",Album,9.0,No (+1),"['indie', 'folk', 'indie folk']",2007,USA,English,3,Skinny Love,ForEmmaForeverAgo.jpg,indie,folk,indie folk
+34,Bruce Springstein,Born To Run,Album,8.0,,"['rock', 'pop rock', '']",1975,USA,English,2,Born To Run,BornToRun.jpg,rock,pop rock,
+35,Bruce Springstein,Born In The USA,Album,12.0,,"['rock', 'folk rock', '']",1984,USA,English,3,Glory Days,BornInTheUSA.jpg,rock,folk rock,
+36,Caravan Palace,Panic,Album,14.0,,"['electronic', 'electro swing', 'jazz']",2012,France,English,4,Manic,Panic.jpg,electronic,electro swing,jazz
+37,Caravan Palace,<|°_°|>,Album,11.0,,"['electronic', 'electro swing', 'jazz']",2015,France,English,3,Lone Digger,RobotFace.png,electronic,electro swing,jazz
+38,Carly Rae Jepsen,Emotion,Album,12.0,No (+5),"['pop', 'synth pop', 'dance pop']",2015,Canada,English,4,Emotion,Emotion.png,pop,synth pop,dance pop
+39,Carly Rae Jepsen,The Loneliest Time,Album,13.0,Yes (+3),"['pop', 'synth pop', 'dance pop']",2022,Canada,English,3,Beach House,TheLoneliestTime.jpg,pop,synth pop,dance pop
+40,Carole King,Tapestry,Album,12.0,No (+1),"['pop', 'pop rock', 'soft rock']",1971,USA,English,2,I Feel The Earth Move,Tapestry.jpg,pop,pop rock,soft rock
+41,Chappell Roan,The Rise And Fall Of A Midwest Princess,Album,14.0,,"['pop', 'electro pop', 'alt pop']",2023,USA,English,4,Naked in Manhattan,TheRiseAndFallOfAMidwestPrincess.png,pop,electro pop,alt pop
+44,Charli XCX,Brat,Album,15.0,No (+4),"['pop', 'electro pop', 'dance pop']",2024,England,English,2,Von Dutch,Brat.png,pop,electro pop,dance pop
+45,Daughter,If You Leave,Album,10.0,,"['indie', 'indie folk', '']",2013,England,English,3,Youth,IfYouLeave.jpg,indie,indie folk,
+46,Daughter,Music From Before The Storm,Album,13.0,,"['indie', 'indie folk', 'ambient']",2017,England,English,4,Burn It Down,MusicFromBeforeTheStorm.jpg,indie,indie folk,ambient
+47,Doja Cat,Amala,Album,13.0,Yes (+3),"['hip hop', 'r&b', 'pop']",2018,USA,English,2,Down Low,Amala.png,hip hop,r&b,pop
+48,Doja Cat,Hot Pink,Album,12.0,,"['pop', 'hip hop', 'r&b']",2019,USA,English,3,Say So,HotPink.png,pop,hip hop,r&b
+50,Dominic Fike,What Could Possibly Go Wrong,Album,14.0,,"['hip hop', 'synth pop', 'alt rock']",2020,USA,English,4,Vampire,WhatCouldPossiblyGoWrong.jpg,hip hop,synth pop,alt rock
+51,Don Broco,Amazing Things,Album,12.0,Yes (+2),"['rock', 'metal', '']",2021,England,English,3,Gumshield,AmazingThings.png,rock,metal,
+52,Eminem,The Slim Shady LP,Album,20.0,No (+2),"['hip hop', 'horror rap', '']",1999,USA,English,2,Still Don't Give A Fuck,TheSlimShadyLP.jpg,hip hop,horror rap,
+53,Enya,A Day Without Rain,Album,12.0,No (+1),"['new age', 'ambient', '']",2000,Ireland,"English, Irish",2,A Day Without Rain,ADayWithoutRain.jpg,new age,ambient,
+54,Erykah Badu,Baduizm,Album,14.0,No (+1),"['r&b', 'soul', 'neo soul']",1997,USA,English,2,On & On,Baduizm.jpg,r&b,soul,neo soul
+55,Fall Out Boy,From Under The Cork Tree,Album,13.0,No (+3),"['rock', 'pop punk', 'emo pop']",2005,USA,English,3,Dance Dance,FromUnderTheCorkTree.jpg,rock,pop punk,emo pop
+56,Fall Out Boy,Infinity On High,Album,14.0,Yes (+2),"['rock', 'pop punk', 'emo pop']",2007,USA,English,5,You're Crashing But You're No Wave,InfinityOnHigh.jpg,rock,pop punk,emo pop
+57,Fall Out Boy,Folie A Deux,Album,12.0,No (+2),"['rock', 'pop', 'pop punk']",2008,USA,English,3,I Don't Care,FolieADeux.jpg,rock,pop,pop punk
+60,Fever Ray,Fever Ray,Album,10.0,Yes (+2),"['electronic', 'ambient', '']",2009,Sweden,English,3,When I Grow Up,FeverRay.png,electronic,ambient,
+61,Fever Ray,Plunge,Album,11.0,,"['electronic', 'experimental', '']",2017,Sweden,English,1,Plunge,Plunge.png,electronic,experimental,
+62,Fiona Apple,When The Pawn…,Album,10.0,No (+1),"['indie', 'art rock', 'baroque pop']",1999,USA,English,3,Paper Bag,WhenThePawn.jpg,indie,art rock,baroque pop
+63,Fiona Apple,Fetch The Bolt Cutters,Album,13.0,,"['indie', 'art pop', '']",2020,USA,English,2,Relay,FetchTheBoltCutters.PNG,indie,art pop,
+64,First Aid Kit,Stay Gold,Album,10.0,No (+1),"['indie', 'folk', 'indie folk']",2013,Sweden,English,3,My Silver Lining,StayGold.png,indie,folk,indie folk
+65,Fleetwood Mac,Fleetwood Mac,Album,11.0,No (+1),"['rock', 'pop rock', 'soft rock']",1975,England,English,2,Rhiannon,FleetwoodMac.png,rock,pop rock,soft rock
+66,Fleetwood Mac,Rumours,Album,11.0,,"['rock', 'pop rock', 'soft rock']",1977,England,English,4,The Chain,Rumours.png,rock,pop rock,soft rock
+67,Florence And The Machine,Ceremonials,Album,12.0,No (+4),"['pop', 'baroque pop', 'alt pop']",2011,England,English,4,Seven Devils,Ceremonials.png,pop,baroque pop,alt pop
+68,Foo Fighters,The Colour And The Shape,Album,13.0,No (+6),"['rock', 'alt rock', 'hard rock']",1997,USA,English,4,Monkey Wrench,TheColourAndTheShape.jpg,rock,alt rock,hard rock
+70,Gorillaz,Demon Days,Album,15.0,,"['electronic', 'trip hop', 'alt rock']",2005,England,English,5,DARE,DemonDays.png,electronic,trip hop,alt rock
+71,Green Day,Dookie,Album,15.0,,"['rock', 'punk rock', 'pop punk']",1994,USA,English,3,Basket Case,Dookie.jpg,rock,punk rock,pop punk
+72,Green Day,American Idiot,Album,13.0,No (+4),"['rock', 'punk rock', 'pop punk']",2004,USA,English,4,Boulevard of Broken Dreams,AmericanIdiot.png,rock,punk rock,pop punk
+73,Green Day,21st Century Breakdown,Album,18.0,No (+2),"['rock', 'punk', 'pop punk']",2009,USA,English,2,Horseshoes and Handgrenades,21stCenturyBreakdown.jpg,rock,punk,pop punk
+74,Harry Styles,Harry's House,Album,13.0,,"['pop', 'synth pop,', '']",2022,England,English,2,As It Was,HarrysHouse.png,pop,"synth pop,",
+75,Hole,Pretty On The Inside,Album,11.0,,"['rock', 'punk rock', 'noise rock']",1991,USA,English,2,Loaded,PrettyOnTheInside.jpg,rock,punk rock,noise rock
+76,Hole,Live Through This,Album,12.0,,"['rock', 'alt rock', 'grunge']",1993,USA,English,4,Violet,LiveThroughThis.png,rock,alt rock,grunge
+77,Hole,Celebrity Skin,Album,12.0,No (+1),"['rock', 'alt rock', 'pop rock']",1998,USA,English,5,Celebrity Skin,CelebritySkin.png,rock,alt rock,pop rock
+78,Hole,Nobody's Daughter,Album,11.0,Yes (+2),"['rock', 'alt rock', '']",2010,USA,English,4,Nobody's Daughter,NobodysDaughter.jpg,rock,alt rock,
+79,Jeff Buckley,Grace,Album,10.0,Yes (+1),"['rock', 'alt rock', 'folk rock']",1994,USA,English,4,Grace,Grace.jpg,rock,alt rock,folk rock
+80,Jenny Owen Youngs,An Unwavering Band Of Light,Album,11.0,,"['indie', 'indie pop', 'indie folk']",2012,USA,English,4,O God,AnUnwaveringBandOfLight.jpg,indie,indie pop,indie folk
+81,Jimi Hendrix,Electric Ladyland,Album,16.0,,"['rock', 'psychedelic rock', 'funk']",1968,USA,English,2,Crosstown Traffic,ElectricLadyland.jpg,rock,psychedelic rock,funk
+82,Jimmy Eat World,Bleed American,Album,11.0,No (+4),"['rock', 'emo pop', 'pop punk']",2001,USA,English,3,Get It Faster,BleedAmerican.jpg,rock,emo pop,pop punk
+83,Kanye West,The College Dropout,Album,21.0,No (+2),"['hip hop', 'pop rap', 'prog rap']",2004,USA,English,3,Two Words,TheCollegeDropout.jpg,hip hop,pop rap,prog rap
+84,Kanye West,Late Registration,Album,22.0,No (+1),"['hip hop', 'pop rap', 'prog rap']",2005,USA,English,4,Diamonds from Sierra Leone,LateRegistration.jpg,hip hop,pop rap,prog rap
+85,Kanye West,Graduation,Album,14.0,No (+1),"['hip hop', 'pop rap', 'prog rap']",2007,USA,English,3,Stronger,Graduation.jpg,hip hop,pop rap,prog rap
+86,Katy Perry,Teenage Dream,Album,12.0,,"['pop', 'dance pop', '']",2010,USA,English,5,The One That Got Away,TeenageDream.png,pop,dance pop,
+87,Kendrick Lamar,"Good Kid, m.A.A.d City",Album,12.0,No (+4),"['hip hop', 'gangsta rap', '']",2012,USA,English,3,Compton,GoodKidMAADCity.jpg,hip hop,gangsta rap,
+88,Kendrick Lamar,To Pimp A Butterfly,Album,16.0,,"['hip hop', 'jazz rap', 'prog rap']",2015,USA,English,3,King Kunta,ToPimpAButterfly.png,hip hop,jazz rap,prog rap
+89,Kendrick Lamar,DAMN.,Album,14.0,,"['hip hop', '', '']",2017,USA,English,4,PRIDE.,Damn.jpg,hip hop,,
+90,King Crimson,In The Court Of The Crimson King,Album,5.0,,"['rock', 'prog rock', '']",1969,England,English,2,21st Century Schizoid Man,InTheCourtOfTheCrimsonKing.jpg,rock,prog rock,
+91,King Gizzard & the Lizard Wizard,Nonagon Infinity,Album,9.0,,"['rock', 'metal', 'psychedelic rock']",2016,Australia,English,3,Robot Stop,NonagonInfinity.png,rock,metal,psychedelic rock
+92,Kneecap,3cag,Album,8.0,,"['hip hop', 'punk rap', '']",2018,Ireland,"Irish, English",5,Cearta,3cag.jpg,hip hop,punk rap,
+93,Kneecap,Fine Art,Album,18.0,,"['hip hop', 'punk rap', '']",2024,Ireland,"Irish, English",5,Better Way To Live,FineArt.png,hip hop,punk rap,
+94,Lady Gaga,The Fame,Album,15.0,No (+1),"['pop', 'synth pop', 'dance pop']",2008,USA,English,4,Paparazzi,TheFame.png,pop,synth pop,dance pop
+95,Lady Gaga,The Fame Monster,Album,8.0,No (+1),"['pop', 'synth pop', 'dance pop']",2009,USA,English,3,Telephone,TheFameMonster.png,pop,synth pop,dance pop
+96,Lady Gaga,Mayhem,Album,14.0,No (+2),"['pop', 'synth pop', '']",2025,USA,English,5,Abracadabra,Mayhem.png,pop,synth pop,
+97,Ladyhawke,Ladyhawke,Album,12.0,Yes (+2),"['pop', 'synth pop', 'alt rock']",2008,New Zealand,English,3,Love Don't Live Here,Ladyhawke.png,pop,synth pop,alt rock
+98,Ladytron,604,Album,16.0,No (+4),"['synth pop', 'alt pop', '']",2001,England,"English, Bulgarian",2,Discotraxx,604.png,synth pop,alt pop,
+99,Ladytron,Light And Magic,Album,15.0,,"['synth pop', 'new wave', '']",2002,England,"English, Bulgarian",2,Seventeen,LightAndMagic.png,synth pop,new wave,
+100,Ladytron,Witching Hour,Album,13.0,No (+3),"['synth pop', 'electro rock', '']",2005,England,"English, Bulgarian",2,Destroy Everything You Touch,WitchingHour.png,synth pop,electro rock,
+101,Ladytron,Velicoifero,Album,13.0,,"['synth pop', 'art pop', 'electro rock']",2008,England,"English, Bulgarian",3,Deep Blue,Velocifero.png,synth pop,art pop,electro rock
+102,Lana Del Ray,Born To Die,Album,12.0,Yes (+3),"['pop', 'alt pop', 'trip hop']",2012,USA,English,4,Dark Paradise,BornToDie.png,pop,alt pop,trip hop
+104,Lana Del Ray,Ultraviolence,Album,11.0,No (+5),"['psychedelia', 'alt pop', 'dream pop']",2014,USA,English,4,West Coast,Ultraviolence.png,psychedelia,alt pop,dream pop
+105,Lauryn Hill,The Miseducation Of Lauryn Hill,Album,16.0,,"['hip hop', 'r&b', 'prog rap']",1997,USA,English,4,Forgive Them Father,TheMiseducationOfLaurynHill.jpg,hip hop,r&b,prog rap
+106,Led Zeppelin,Led Zeppelin IV,Album,8.0,,"['rock', 'hard rock', '']",1971,England,English,2,Black Dog,LedZeppelinIV.jpg,rock,hard rock,
+107,Lily Allen,Alright Still,Album,11.0,,"['pop', 'r&b', '']",2006,England,English,3,LDN,AlrightStill.png,pop,r&b,
+108,Lily Allen,It's Not Me It's You,Album,12.0,,"['pop', 'electronic', '']",2009,England,English,4,The Fear,ItsNotMeItsYou.png,pop,electronic,
+109,Linkin Park,Hybrid Theory,Album,12.0,,"['rock', 'nu metal', 'rap rock']",2000,USA,English,5,A Place For My Head,HybridTheory.jpg,rock,nu metal,rap rock
+110,Linkin Park,From Zero,Album,11.0,No (+3),"['rock', 'nu metal', 'rap rock']",2024,USA,English,3,The Emptiness Machine,FromZero.png,rock,nu metal,rap rock
+111,Lo-Fang,Blue Film,Album,12.0,,"['indie', 'indie pop', '']",2014,USA,English,4,#88,BlueFilm.jpg,indie,indie pop,
+112,Madvillain,Madvillainy,Album,22.0,,"['hip hop', 'jazz rap', 'prog rap']",2004,USA,English,4,All Caps,Madvillainy.jpg,hip hop,jazz rap,prog rap
+113,Marina and the Diamonds,Electra Heart,Album,12.0,No (+7),"['pop', 'synth pop', 'dance pop']",2012,Wales,English,4,Primadonna,ElectraHeart.png,pop,synth pop,dance pop
+114,Marina and the Diamonds,Froot,Album,12.0,,"['pop', 'synth pop', '']",2015,Wales,English,4,Better Than That,Froot.png,pop,synth pop,
+115,Marvin Gaye,What's Going On,Album,9.0,No (+1),"['soul', 'r&b', '']",1971,USA,English,3,What's Happening Brother,WhatsGoingOn.jpg,soul,r&b,
+116,Massive Attack,Mezzanine,Album,11.0,No (+3),"['trip hop', 'electronic', '']",1998,England,English,3,Teardrop,Mezzanine.png,trip hop,electronic,
+117,McFly,Room On The 3rd Floor,Album,11.0,Yes (+3),"['pop', 'pop rock', 'pop punk']",2004,England,English,2,Five Colours In Her Hair,RoomOnThe3rdFloor.jpg,pop,pop rock,pop punk
+118,McFly,Wonderland,Album,12.0,No (+1),"['pop', 'pop rock', '']",2005,England,English,2,All About You,Wonderland.jpg,pop,pop rock,
+119,McFly,Motion In The Ocean,Album,11.0,No (+1),"['pop', 'pop rock', '']",2006,England,English,2,Transylvania,MotionInTheOcean.jpg,pop,pop rock,
+120,Meat Loaf,Bat Out Of Hell,Album,7.0,No (+1),"['rock', '', '']",1977,USA,English,1,Bat Out of Hell,BatOutOfHell.jpg,rock,,
+121,Megadeth,Peace Sells… But Who's Buying?,Album,8.0,Yes (+1),"['rock', 'metal', 'thrash metal']",1986,USA,English,4,My Last Words,PeaceSellsButWhosBuying.jpg,rock,metal,thrash metal
+122,Megadeth,Rust In Peace,Album,9.0,Yes (+1),"['rock', 'metal', 'thrash metal']",1990,USA,English,5,Lucretia,RustInPeace.jpg,rock,metal,thrash metal
+123,Megadeth,Countdown To Extinction,Album,11.0,No (+3),"['rock', 'metal', 'thrash metal']",1992,USA,English,4,Countdown To Extinction,CountdownToExtinction.jpg,rock,metal,thrash metal
+124,Metallica,Kill 'Em All,Album,10.0,No (+2),"['rock', 'metal', 'thrash metal']",1983,USA,English,4,Seek And Destroy,KillEmAll.jpg,rock,metal,thrash metal
+125,Metallica,Ride The Lightning,Album,8.0,,"['rock', 'metal', 'thrash metal']",1984,USA,English,4,Ride The Lightning,RideTheLightning.png,rock,metal,thrash metal
+126,Metallica,Master Of Puppets,Album,8.0,,"['rock', 'metal', 'thrash metal']",1986,USA,English,4,Master Of Puppets,MasterOfPuppets.jpg,rock,metal,thrash metal
+127,Metallica,Metallica,Album,12.0,,"['rock', 'metal', '']",1991,USA,English,4,Wherever I May Roam,Metallica.jpg,rock,metal,
+128,MGMT,Oracular Spectacular,Album,10.0,No (+1),"['pop', 'psychedelia', 'alt rock']",2007,USA,English,4,Kids,OracularSpectacular.jpg,pop,psychedelia,alt rock
+129,Michael Jackson,Thriller,Album,9.0,,"['pop', 'funk', 'r&b']",1982,USA,English,3,Billie Jean,Thriller.png,pop,funk,r&b
+130,Mika,Life In Cartoon Motion,Album,11.0,,"['pop', 'pop rock', '']",2007,England,English,4,Ring Ring,LifeInCartoonMotion.jpg,pop,pop rock,
+131,Miles Davis,Kind Of Blue,Album,5.0,No (+4),"['jazz', 'modal jazz', '']",1959,USA,,1,Flamenco Sketches,KindOfBlue.jpg,jazz,modal jazz,
+132,Morcheeba,Big Calm,Album,11.0,No (+1),"['electronic', 'trip hop', 'hip hop']",1998,England,English,3,The Sea,BigCalm.jpg,electronic,trip hop,hip hop
+133,Morcheeba,Blood Like Lemonade,Album,10.0,No (+1),"['electronic', 'trip hop', 'soul']",2010,England,English,2,Blood Like Lemonade,BloodLikeLemonade.jpg,electronic,trip hop,soul
+134,Mother Mother,Eureka,Album,15.0,,"['rock', 'alt rock', '']",2011,Canada,English,5,Chasing It Down,Eureka.jpg,rock,alt rock,
+135,Muse,Origin Of Symmetry,Album,12.0,,"['rock', 'alt rock', 'hard rock']",2001,England,English,5,Bliss,OriginOfSymmetry.png,rock,alt rock,hard rock
+136,Muse,Absolution,Album,14.0,No (+1),"['rock', '', '']",2003,England,English,5,The Small Print,Absolution.jpg,rock,,
+137,Muse,Black Holes And Revelations,Album,11.0,No (+1),"['rock', '', '']",2006,England,English,4,Supermassive Black Hole,BlackHolesAndRevelations.jpg,rock,,
+138,Muse,The Resistance,Album,11.0,,"['rock', '', '']",2009,England,English,4,MK Ultra,TheResistance.jpg,rock,,
+139,Muse,The 2nd Law,Album,13.0,,"['rock', '', '']",2012,England,English,3,Unsustainable,The2ndLaw.jpg,rock,,
+140,Muse,Drones,Album,12.0,,"['rock', '', '']",2015,England,English,4,Reapers,Drones.jpg,rock,,
+141,My Chemical Romance,I Brought You My Bullets,Album,11.0,,"['rock', 'emo', 'punk rock']",2002,USA,English,3,Headfirst For Halos,IBroughtYouMyBullets.jpg,rock,emo,punk rock
+142,My Chemical Romance,Three Cheers For Sweet Revenge,Album,13.0,Yes (+1),"['rock', 'emo', 'punk rock']",2004,USA,English,4,You Know What They Do To Guys Like Us In Prison,ThreeCheersForSweetRevenge.jpg,rock,emo,punk rock
+143,My Chemical Romance,The Black Parade,Album,14.0,No (+8),"['rock', 'emo', 'punk rock']",2006,USA,English,5,Sleep,TheBlackParade.jpg,rock,emo,punk rock
+144,My Chemical Romance,Danger Days,Album,15.0,No (+2),"['rock', 'alt rock', 'pop punk']",2010,USA,English,4,Destroya,DangerDays.jpg,rock,alt rock,pop punk
+147,Nas,Illmatic,Album,10.0,No (+4),"['hip hop', 'rap', '']",1994,USA,English,4,N.Y. State Of Mind,Illmatic.jpg,hip hop,rap,
+148,Nirvana,Nevermind,Album,13.0,,"['rock', 'grunge', 'hard rock']",1991,USA,English,5,In Bloom,Nevermind.jpg,rock,grunge,hard rock
+149,Nothing But Thieves,Nothing But Thieves,Album,12.0,Yes (+4),"['rock', 'alt rock', 'hard rock']",2015,England,English,5,Itch,NothingButThieves.jpg,rock,alt rock,hard rock
+150,Nova Twins,Supernova,Album,11.0,,"['rock', 'punk rock', 'rap rock']",2022,England,English,4,Antagonist,Supernova.jpeg,rock,punk rock,rap rock
+151,"Now, Now",Threads,Album,12.0,,"['rock', 'alt rock', '']",2012,USA,English,3,Wolf,Threads.PNG,rock,alt rock,
+152,Olivia Rodrigo,SOUR,Album,11.0,,"['pop', 'alt pop', 'pop punk']",2021,USA,English,4,Good 4 U,Sour.png,pop,alt pop,pop punk
+153,Olivia Rodrigo,GUTS,Album,12.0,No (+5),"['pop', 'alt pop', 'pop punk']",2023,USA,English,5,Vampire,Guts.png,pop,alt pop,pop punk
+154,Outkast,Aquemini,Album,16.0,,"['hip hop', 'alt rap', '']",1998,USA,English,2,Chonkyfire,Aquemini.jpg,hip hop,alt rap,
+155,Outkast,Stankonia,Album,24.0,,"['hip hop', 'funk', 'prog rap']",2000,USA,English,3,Gasoline Dreams,Stankonia.jpg,hip hop,funk,prog rap
+156,Ozzy Osbourne,Blizzard Of Ozz,Album,9.0,Yes (+1),"['rock', 'metal', '']",1980,England,English,3,Crazy Train,BlizzardOfOzz.jpg,rock,metal,
+157,Panic! At The Disco,Vices & Virtues,Album,10.0,Yes (+3),"['rock', 'emo pop', '']",2011,USA,English,3,The Ballad Of Mona Lisa,VicesAndVirtues.jpg,rock,emo pop,
+158,Paramore,All We Know is Falling,Album,10.0,No (+2),"['rock', 'pop punk', 'emo pop']",2006,USA,English,3,Emergency,AllWeKnowIsFalling.png,rock,pop punk,emo pop
+159,Paramore,Riot!,Album,11.0,No (+4),"['rock', 'pop punk', 'emo pop']",2007,USA,English,4,Let The Flames Begin,Riot.jpg,rock,pop punk,emo pop
+160,Paramore,Brand New Eyes,Album,11.0,Yes (+1),"['rock', 'pop punk', 'emo pop']",2009,USA,English,4,Ignorance,BrandNewEyes.png,rock,pop punk,emo pop
+162,Paramore,Paramore,Album,17.0,No (+3),"['rock', 'alt rock', 'pop punk']",2013,USA,English,3,Part II,Paramore.png,rock,alt rock,pop punk
+163,Pearl Jam,Ten,Album,11.0,,"['rock', 'grunge', 'hard rock']",1991,USA,English,4,Alive,Ten.jpg,rock,grunge,hard rock
+164,Phoebe Bridgers,Stranger In The Alps,Album,11.0,No (+1),"['indie', 'indie folk', '']",2017,USA,English,3,Motion Sickness,StrangerInTheAlps.png,indie,indie folk,
+165,Phoebe Bridgers,Punisher,Album,11.0,,"['indie', 'indie folk', '']",2020,USA,English,3,I Know The End,Punisher.png,indie,indie folk,
+166,Pink Floyd,The Dark Side Of The Moon,Album,10.0,,"['rock', 'prog rock', 'psychedelia']",1973,England,English,4,The Great Gig In The Sky,TheDarkSideOfTheMoon.jpg,rock,prog rock,psychedelia
+167,Pixies,Surfer Rosa,Album,13.0,,"['rock', 'alt rock', '']",1988,USA,English,2,Where Is My Mind?,SurferRosa.jpg,rock,alt rock,
+168,Pixies,Doolittle,Album,15.0,,"['rock', 'alt rock', '']",1989,USA,English,4,Here Comes Your Man,Doolittle.jpg,rock,alt rock,
+169,Portishead,Dummy,Album,11.0,,"['electronic', 'trip hop', '']",1994,England,English,2,Glory Box,Dummy.png,electronic,trip hop,
+170,Public Enemy,It Takes A Nation Of Millions To Hold Us Back,Album,16.0,No (+1),"['hip hop', '', '']",1988,USA,English,3,Party For Your Right To Fight,ItTakesANationOfMillions.jpg,hip hop,,
+171,Queens of the Stone Age,Songs For The Deaf,Album,14.0,No (+2),"['rock', 'hard rock', '']",2002,USA,English,4,The Sky Is Fallin,SongsForTheDeaf.png,rock,hard rock,
+172,Radiohead,The Bends,Album,12.0,,"['rock', 'alt rock', 'art rock']",1995,England,English,2,Street Spirit,TheBends.png,rock,alt rock,art rock
+173,Radiohead,OK Computer,Album,12.0,,"['rock', 'alt rock', 'art rock']",1997,England,English,2,No Surprises,OKComputer.png,rock,alt rock,art rock
+174,Radiohead,Kid A,Album,11.0,,"['electronic', 'art rock', 'ambient']",2000,England,English,1,Everything In Its Right Place,KidA.png,electronic,art rock,ambient
+175,Rage Against the Machine,Rage Against The Machine,Album,10.0,,"['rock', 'metal', 'rap metal']",1992,USA,English,5,Bullet In The Head,RageAgainstTheMachine.jpg,rock,metal,rap metal
+176,Red Hot Chili Peppers,Californication,Album,15.0,No (+3),"['rock', 'alt rock', 'funk rock']",1999,USA,English,2,Californication,Californication.jpg,rock,alt rock,funk rock
+181,Remi Wolf,Juno,Album,13.0,Yes (+5),"['pop', 'funk', 'r&b']",2021,USA,English,2,Street You Live On,Juno.png,pop,funk,r&b
+182,Rina Sawayama,SAWAYAMA,Album,13.0,No (+4),"['pop', 'pop rock', 'dance pop']",2020,England,English,3,STFU!,Sawayama.png,pop,pop rock,dance pop
+183,Sabrina Carpenter,Short n' Sweet,Album,12.0,No (+5),"['pop', '', '']",2024,USA,English,3,Espresso,ShortNSweet.png,pop,,
+184,Scissor Sisters,Scissor Sisters,Album,11.0,Yes (+3),"['pop', 'pop rock', 'disco']",2004,USA,English,4,Take Your Mama,ScissorSisters.jpg,pop,pop rock,disco
+185,Shania Twain,Come On Over,Album,16.0,,"['country', 'country pop', '']",1997,Canada,English,2,That Don't Impress Me Much,ComeOnOver.png,country,country pop,
+186,Siouxsie and the Banshees,Through The Looking Glass,Album,10.0,Yes (+2),"['rock', 'alt rock', 'art rock']",1987,England,English,3,This Wheel's On Fire,ThroughTheLookingGlass.jpg,rock,alt rock,art rock
+187,Slayer,Reign In Blood,Album,10.0,Yes (+1),"['rock', 'metal', 'thrash metal']",1986,USA,English,3,Angel Of Death,ReignInBlood.jpg,rock,metal,thrash metal
+188,Sleater-Kinney,Dig Me Out,Album,13.0,,"['rock', 'punk', '']",1997,USA,English,4,One More Hour,DigMeOut.jpg,rock,punk,
+189,Slipknot,Slipknot,Album,,,"['rock', 'metal', 'alt metal']",1999,USA,English,3,Prosthetics,Slipknot.jpg,rock,metal,alt metal
+190,Slipknot,Iowa,Album,14.0,Yes (+2),"['rock', 'metal', 'alt metal']",2001,USA,English,4,The Heretic Anthem,Iowa.jpg,rock,metal,alt metal
+191,Stevie Wonder,Innervisions,Album,9.0,,"['soul', 'funk', 'jazz']",1973,USA,English,2,Higher Ground,Innervisions.jpg,soul,funk,jazz
+192,Stromae,Cheese,Album,11.0,,"['house', 'electronic', '']",2010,Belgium,French,3,Alors on Danse,Cheese.jpg,house,electronic,
+193,Stromae,Racine Carree,Album,13.0,,"['house', 'electronic', 'dance pop']",2013,Belgium,French,4,Tous Les Memes,RacineCarree.jpg,house,electronic,dance pop
+194,Studio Killers,Studio Killers,Album,11.0,Yes (+2),"['pop', 'synth pop', 'electronic']",2013,Multiple,English,4,Ode To The Bouncer,StudioKillers.png,pop,synth pop,electronic
+198,System of a Down,Toxicity,Album,15.0,No (+1),"['rock', 'metal', 'alt metal']",2001,USA,English,3,Toxicity,Toxicity.jpg,rock,metal,alt metal
+199,Tame Impala,Currents,Album,13.0,No (+3),"['pop', 'synth pop', 'r&b']",2015,Australia,English,3,The Less I Know The Better,Currents.png,pop,synth pop,r&b
+200,Taylor Swift,Taylor Swift,Album,11.0,Yes (+2),"['country', 'pop', 'country pop']",2006,USA,English,3,A Place In This World,TaylorSwift.png,country,pop,country pop
+203,Taylor Swift,Fearless,Album,13.0,Yes (+5),"['country', 'pop', 'country pop']",2008,USA,English,3,Untouchable,Fearless.png,country,pop,country pop
+206,Taylor Swift,Speak Now,Album,14.0,Yes (+3),"['pop', 'country pop', 'pop rock']",2010,USA,English,4,Speak Now,SpeakNow.png,pop,country pop,pop rock
+208,Taylor Swift,Red,Album,16.0,Yes (+3),"['pop', 'country pop', '']",2012,USA,English,2,Starlight,Red.png,pop,country pop,
+211,Taylor Swift,1989,Album,13.0,No (+3),"['pop', 'synth pop', '']",2014,USA,English,4,New Romantics,1989.png,pop,synth pop,
+213,Taylor Swift,Reputation,Album,15.0,,"['pop', 'synth pop', 'r&b']",2017,USA,English,4,Don't Blame Me,Reputation.png,pop,synth pop,r&b
+215,Taylor Swift,Lover,Album,18.0,,"['pop', 'synth pop', 'pop rock']",2019,USA,English,4,Cruel Summer,Lover.png,pop,synth pop,pop rock
+219,Taylor Swift,Folklore,Album,16.0,Yes (+1),"['indie', 'indie folk', '']",2020,USA,English,5,Seven,Folklore.png,indie,indie folk,
+220,Taylor Swift,Evermore,Album,15.0,No (+2),"['indie', 'indie folk', '']",2020,USA,English,3,"No Body, No Crime",Evermore.png,indie,indie folk,
+223,Taylor Swift,Midnights,Album,13.0,Yes (+8),"['pop', 'synth pop', '']",2022,USA,English,3,Karma,Midnights.png,pop,synth pop,
+226,Taylor Swift,The Tortured Poets Department,Album,16.0,Yes (+15),"['pop', 'synth pop', 'folk pop']",2024,USA,English,2,How Did it End,TheTorturedPoetsDepartment.png,pop,synth pop,folk pop
+227,The Beach Boys,Pet Sounds,Album,13.0,,"['rock', 'pop', 'pop rock']",1966,USA,English,2,God Only Knows,PetSounds.jpg,rock,pop,pop rock
+229,The Beatles,Revolver,Album,14.0,,"['rock', 'pop', 'psychedelia']",1966,England,English,4,Eleanor Rigby,Revolver.jpg,rock,pop,psychedelia
+230,The Beatles,Sgt Pepper's Lonely Hearts Club Band,Album,13.0,,"['rock', 'pop', 'psychedelia']",1967,England,English,2,With A Little Help From My Friends,SgtPeppersLonelyHeartsClubBand.jpg,rock,pop,psychedelia
+231,The Beatles,The Beatles,Album,30.0,,"['rock', 'pop', 'pop rock']",1968,England,English,2,While My Guitar Gently Weeps,TheBeatles.jpg,rock,pop,pop rock
+232,The Beatles,Abbey Road,Album,17.0,,"['rock', 'pop', 'pop rock']",1969,England,English,3,Oh! Darling,AbbeyRoad.jpg,rock,pop,pop rock
+233,The Heavy,Hurt & The Merciless,Album,12.0,No (+1),"['rock', 'funk rock', 'alt rock']",2016,England,English,3,Not The One,HurtAndTheMerciless.jpg,rock,funk rock,alt rock
+234,The White Stripes,White Blood Cells,Album,16.0,No (+2),"['rock', 'blues rock', 'alt rock']",2001,USA,English,2,Fell In Love With A Girl,WhiteBloodCells.jpg,rock,blues rock,alt rock
+235,The White Stripes,Elephant,Album,14.0,No (+2),"['rock', 'blues rock', 'alt rock']",2003,USA,English,2,Seven Nation Army,Elephant.png,rock,blues rock,alt rock
+236,TLC,CrazySexyCool,Album,16.0,No (+1),"['hip hop', 'r&b', '']",1994,USA,English,4,Waterfalls,CrazySexyCool.png,hip hop,r&b,
+237,Tori Amos,Little Earhquakes,Album,12.0,No (+13),"['indie', 'art pop', 'art rock']",1992,USA,English,4,Girl,LittleEarthquakes.jpg,indie,art pop,art rock
+238,U2,The Joshua Tree,Album,11.0,,"['rock', '', '']",1987,Ireland,English,3,Bullet the Blue Sky,TheJoshuaTree.png,rock,,
+240,Uh Huh Her,Common Reaction,Album,11.0,,"['pop', 'synth pop', 'alt rock']",2008,USA,English,4,Common Reaction,CommonReaction.jpg,pop,synth pop,alt rock
+241,Uh Huh Her,Nocturnes,Album,11.0,,"['pop', 'synth pop', 'alt rock']",2011,USA,English,4,Marstorm,Nocturnes.png,pop,synth pop,alt rock
+243,Van Halen,Van Halen,Album,11.0,,"['rock', 'hard rock', '']",1978,USA,English,3,Little Dreamer,VanHalen.jpg,rock,hard rock,
+244,Weezer,Weezer,Album,10.0,No (+6),"['rock', 'pop punk', 'emo pop']",1994,USA,English,3,Buddy Holly,Weezer.jpg,rock,pop punk,emo pop
+245,Wet Leg,Wet Leg,Album,12.0,,"['rock', 'alt rock', 'pop punk']",2022,England,English,4,Being In Love,WetLeg.jpeg,rock,alt rock,pop punk
+249,Wolf Alice,My Love Is Cool,Album,12.0,Yes (+4),"['rock', 'alt rock', '']",2015,England,English,5,Turn To Dust,MyLoveIsCool.jpg,rock,alt rock,
+251,Wolf Alice,Visions of a Life,Album,12.0,No (+1),"['rock', 'alt rock', '']",2017,England,English,3,Beautifully Unconventional,VisionsOfALife.png,rock,alt rock,
+252,Wolf Alice,Blue Weekend,Album,11.0,No (+1),"['rock', 'alt rock', '']",2021,England,English,5,Lipstick On The Glass,BlueWeekend.jpg,rock,alt rock,
+253,Wu-Tang Clan,Enter the Wu-Tang (36 Chambers),Album,13.0,,"['hip hop', 'rap', '']",1993,USA,English,4,C.R.E.A.M.,EnterTheWuTang.jpg,hip hop,rap,
+254,You Me At Six,Sinners Never Sleep,Album,12.0,No (+1),"['rock', 'pop rock', 'alt rock']",2011,England,English,3,Loverboy,SinnersNeverSleep.png,rock,pop rock,alt rock
