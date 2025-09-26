@@ -117,7 +117,7 @@ def create_genre_rating_bar(albums, primary = False):
     return ax
 
 
-def create_artist_origin_map(albums, filepath):
+def create_artist_origin_map(albums, filepath, darkmode = False):
     """
     Create a world map heatmap showing the number of rated artists from each country
     """
@@ -138,25 +138,28 @@ def create_artist_origin_map(albums, filepath):
     merged_df = pd.merge(left=geo_df, right=geo_counts, how='left', left_on='country', right_on='Country').fillna(0)
 
     #Create custom colormap - dark grey for values of 0, heatmap for the rest
+    c = 'dimgrey' if darkmode else 'darkgrey'
     ocmap = sbn.color_palette("viridis", as_cmap=True)
-    cmap = np.insert(ocmap(np.linspace(0, 1, geo_counts[0])), 0, mpl.colors.to_rgba('dimgrey'), axis=0)
+    cmap = np.insert(ocmap(np.linspace(0, 1, geo_counts[0])), 0, mpl.colors.to_rgba(c), axis=0)
     cmap = mpl.colors.LinearSegmentedColormap.from_list("", cmap)
 
     #Create the figure
     fig, ax = plt.subplots(1, figsize=(16, 6))
+    tc = 'white' if darkmode else 'black'
+    ec = '0.0' if darkmode else '1.0'
     ax.axis('off')
-    merged_df.plot(column='count', ax=ax, edgecolor='0.0', linewidth=0.1, cmap=cmap)
-    plt.title("Number of Rated Artists by Country of Origin", color='white', fontsize=16)
-    fig.set_facecolor("black")
+    merged_df.plot(column='count', ax=ax, edgecolor=ec, linewidth=0.1, cmap=cmap)
+    plt.title("Number of Rated Artists by Country of Origin", color=tc, fontsize=16)
+    if darkmode: fig.set_facecolor("black")
 
     #Create the colorbar legend
     sm = plt.cm.ScalarMappable(norm=plt.Normalize(vmin=0, vmax=geo_counts[0]), cmap=ocmap)
     sm._A = []
     cbax = fig.add_axes([0.15, 0.1, 0.01, 0.4])
     cb = fig.colorbar(sm, cax=cbax)
-    cb.outline.set_visible(False)
-    cbax.yaxis.label.set_color('white')
-    cbax.tick_params(axis='y', colors='white')
+    if darkmode: cb.outline.set_visible(False)
+    cbax.yaxis.label.set_color(tc)
+    cbax.tick_params(axis='y', colors=tc)
 
     plt.tight_layout()
 
