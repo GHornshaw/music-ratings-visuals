@@ -6,7 +6,10 @@ import os
 import math
 import cv2
 import numpy as np
+import pandas as pd
+import geopandas as gpd
 import seaborn as sbn
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.lines as lns
 
@@ -58,13 +61,16 @@ def create_album_bar(albums, imsize, n_wide, imspath):
         ax.set_xlabel(categories[i])
     axs[0].spines.left.set_visible(True)
     axs[0].set_yticks(range(0, (math.ceil(np.max(counts.values)/n_wide) + 1) * n_wide, n_wide))
+
+    plt.suptitle("Number of Albums by Rating", fontsize=16, horizontalalignment='center')
     
     return fig
 
 
 def create_genre_rating_bar(albums, primary = False):
     """
-    Creates a rating radar chart where the axes are the highest level genre for each album
+    Creates a horizontal bar chart showing the number of ratings per genre,
+    Coloured by rating
     """
 
     #Create dataframes of ratings counts indexed by genre
@@ -105,7 +111,53 @@ def create_genre_rating_bar(albums, primary = False):
         markerscale=1.5
     )
     plt.ylabel(None)
-    plt.title("Albums by Genre")
+    plt.title("Number of Ratings by Genre", fontsize=16)
     plt.tight_layout()
 
     return ax
+
+
+def create_artist_origin_map(albums, filepath):
+    """
+    Create a world map heatmap showing the number of rated artists from each country
+    """
+
+    #Load and process the geometry dataframe
+    geo_df = gpd.read_file(os.path.join(filepath, "geo_shapefile", "ne_10m_admin_0_countries.shp"))[['ADMIN', 'ADM0_A3', 'geometry']]
+    geo_df.columns = ['country','country_code','geometry']
+    geo_df = geo_df.drop(geo_df.loc[geo_df['country'] == 'Antarctica'].index)
+
+    #Select artists and countries, drop duplicates
+    countries = albums[['Artist','Country']].drop_duplicates()['Country']
+    #Reformat some common ones to how they are written in geo_df
+    countries = countries.replace(['England','Wales','Scotland'], 'United Kingdom')
+    countries = countries.replace('USA', 'United States of America')
+    countries = countries.drop(countries.loc[countries == 'Multiple'].index)
+    #Count instances of each origin country in ratings
+    geo_counts = countries.value_counts()
+    merged_df = pd.merge(left=geo_df, right=geo_counts, how='left', left_on='country', right_on='Country').fillna(0)
+
+    #Create custom colormap - dark grey for values of 0, heatmap for the rest
+    ocmap = sbn.color_palette("viridis", as_cmap=True)
+    cmap = np.insert(ocmap(np.linspace(0, 1, geo_counts[0])), 0, mpl.colors.to_rgba('dimgrey'), axis=0)
+    cmap = mpl.colors.LinearSegmentedColormap.from_list("", cmap)
+
+    #Create the figure
+    fig, ax = plt.subplots(1, figsize=(16, 6))
+    ax.axis('off')
+    merged_df.plot(column='count', ax=ax, edgecolor='0.0', linewidth=0.1, cmap=cmap)
+    plt.title("Number of Rated Artists by Country of Origin", color='white', fontsize=16)
+    fig.set_facecolor("black")
+
+    #Create the colorbar legend
+    sm = plt.cm.ScalarMappable(norm=plt.Normalize(vmin=0, vmax=geo_counts[0]), cmap=ocmap)
+    sm._A = []
+    cbax = fig.add_axes([0.15, 0.1, 0.01, 0.4])
+    cb = fig.colorbar(sm, cax=cbax)
+    cb.outline.set_visible(False)
+    cbax.yaxis.label.set_color('white')
+    cbax.tick_params(axis='y', colors='white')
+
+    plt.tight_layout()
+
+    return fig
