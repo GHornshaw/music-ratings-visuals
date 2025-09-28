@@ -36,13 +36,13 @@ This figure shows that I have rated most albums 4/5 and given a rating of 1/5 to
 
 This horizontal stacked bar chart shows the number of albums rated for each genre, coloured by the ratings given. Unsurprisingly, the most common genres have been rock and pop. Some notable genres without many entries are disco, reggae, and punk - I should listen to more of them. Interestingly, most of the genres have quite an even spread of ratings, but some stand out as much more liked - thrash metal, alt pop, and grunge, for instance. On the flip side, I don't seem to be a fan of art rock, ambient, or jazz music.
 
-![A geographical heat map showing the number of different artists rated for each country of origin.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/origin_country_map.png?raw=true)
-
-This geographic heat map shows the number of individual artists (not albums) I have rated per country of origin. It's not looking very interesting currently as most artists have been from the US and the UK. In order to allow better visiblity of countries I have listened to *any* music from over countries I haven't, I created a custom color-map that starts with a dark grey for 0, before jumping to the lowest heat map colour at 1.
-
 ![A heat map showing the number of each rating given for each album release year.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/year_rating_heatmap.png?raw=true)
 
 This heat map shows the number of each rating I have given per album release year. It shows not only how many albums I have listened to from certain time periods relative to others, but also my preferences for music from different time periods. At present, I have listened to far more music from the 2006-2015 period than any other, and all of my favourite albums were released after the year 1990.
+
+![A geographical heat map showing the number of different artists rated for each country of origin.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/origin_country_map.png?raw=true)
+
+This geographic heat map shows the number of individual artists (not albums) I have rated per country of origin. It's not looking very interesting currently as most artists have been from the US and the UK. In order to allow better visiblity of countries I have listened to *any* music from over countries I haven't, I created a custom color-map that starts with a dark grey for 0, before jumping to the lowest heat map colour at 1.
 
 ## Upcoming
 
