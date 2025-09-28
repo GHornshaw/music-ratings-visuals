@@ -40,6 +40,10 @@ This horizontal stacked bar chart shows the number of albums rated for each genr
 
 This geographic heat map shows the number of individual artists (not albums) I have rated per country of origin. It's not looking very interesting currently as most artists have been from the US and the UK. In order to allow better visiblity of countries I have listened to *any* music from over countries I haven't, I created a custom color-map that starts with a dark grey for 0, before jumping to the lowest heat map colour at 1.
 
+![A heat map showing the number of each rating given for each album release year.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/year_rating_heatmap.png?raw=true)
+
+This heat map shows the number of each rating I have given per album release year. It shows not only how many albums I have listened to from certain time periods relative to others, but also my preferences for music from different time periods. At present, I have listened to far more music from the 2006-2015 period than any other, and all of my favourite albums were released after the year 1990.
+
 ## Upcoming
 
 I am planning to include a visualisation of average album/song lengths against my ratings to identify if there is any pacing I tend to like or dislike more, but I will first have to populate the spreadsheet with album lengths.

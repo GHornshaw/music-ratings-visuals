@@ -144,7 +144,7 @@ def create_artist_origin_map(albums, filepath, darkmode = False):
     cmap = mpl.colors.LinearSegmentedColormap.from_list("", cmap)
 
     #Create the figure
-    fig, ax = plt.subplots(1, figsize=(16, 6))
+    fig, ax = plt.subplots(1, figsize=(12, 6))
     tc = 'white' if darkmode else 'black'
     ec = '0.0' if darkmode else '1.0'
     ax.axis('off')
@@ -160,6 +160,39 @@ def create_artist_origin_map(albums, filepath, darkmode = False):
     if darkmode: cb.outline.set_visible(False)
     cbax.yaxis.label.set_color(tc)
     cbax.tick_params(axis='y', colors=tc)
+
+    plt.tight_layout()
+
+    return fig
+
+
+def create_year_rating_heatmap(albums, colorbar):
+    """
+    Create a grid heatmap showing rating by year
+    """
+
+    years = pd.DataFrame({'Year':np.arange(albums['Year'].min(), albums['Year'].max()+1, 1)})
+    counts = pd.get_dummies(albums[['Year', 'Rating']], prefix='Rating', columns=['Rating'])
+    counts = counts.groupby('Year').agg('sum')
+    year_ratings = pd.merge(left=years, right=counts, how='left', left_on='Year', right_on='Year').fillna(0).set_index('Year')
+    year_ratings.head()
+
+    if colorbar:
+        print("Colorbar not implemented!")
+
+    fig, ax = plt.subplots(1, figsize=(12, 2))
+    sbn.heatmap(
+        year_ratings.transpose(),
+        ax=ax,
+        cbar=False, square=True,
+        xticklabels=year_ratings.index,
+        yticklabels=['1','2','3','4','5']
+    )
+    plt.xticks(rotation=70)
+    plt.yticks(rotation=0)
+    ax.invert_yaxis()
+    ax.set_ylabel('Rating')
+    ax.set_title('Heatmap of Album Rating by Release Year', fontsize=14)
 
     plt.tight_layout()
 
