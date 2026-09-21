@@ -3,7 +3,7 @@ Visualising my music taste after listening to 200+ albums.
 
 This is a project to demonstrate some data processing and visualisation skills, and hopefully when there's enough data, to provide me with some insights into the patterns of my music taste.
 
-Current number of albums included: **207**
+Current number of albums included: **250**
 
 ## The project:
 
@@ -30,7 +30,7 @@ Each album is rated on an ordered categorical scale from 1-5, based on two possi
 
 This custom bar chart shows the number of albums per rating. It was made by combining album cover art images into five different numpy arrays, grouped by their rating, which then acted as images to be drawn onto the axis to form a bar chart. The function allows for different bar widths (number of albums across), and changing it automatically updates the y-axis scale (currently, each row is five albums). Incomplete top rows are populated from the side which has more albums to give it a more rounded look.
 
-This figure shows that I have rated most albums 4/5 and given a rating of 1/5 to the least albums (only 6). This is a fairly standard bell curve leaning towards higher ratings, which is predictable as I would be more likely to return to artists or genres that I have previously rated highly and avoid those I strongly dislike.
+This figure shows that I have rated most albums 3/5 and given a rating of 1/5 to the least albums (only 7). This is a fairly standard bell curve leaning towards higher ratings, which is predictable as I would be more likely to return to artists or genres that I have previously rated highly and avoid those I strongly dislike.
 
 ![A horizontal stacked bar chart showing the number of albums of each genre rated, coloured by the ratings given.](https://github.com/GHornshaw/music-ratings-visuals/blob/main/visuals/genre_rating_bar.png?raw=true)
 
@@ -46,6 +46,10 @@ This geographic heat map shows the number of individual artists (not albums) I h
 
 ## Upcoming
 
-I am planning to include a visualisation of average album/song lengths against my ratings to identify if there is any pacing I tend to like or dislike more, but I will first have to populate the spreadsheet with album lengths.
+- Visualisation of avergae album/song length against ratings to identify if pacing has an impact on enjoyment. Requires processing of song lengths from track listings.
 
-I am also planning to plot my ratings over time, coloured by genre, to identify if there have been (or will be) any changes to my taste since starting. In order to do this I will have to include date of entry in the spreadsheet and back-fill it (difficult).
+- Visualisation of ratings over time, coloured by genre, to identify if there have been changes to my taste since this project started. Requires backdated ordering of spreadsheet entries (sigh).
+
+- NLP on album Wiki article text to identify associations of descriptive terms, critic sentiment, commercial reception, and chart performance with my ratings. Just started on this.
+
+- When at 500 albums: predictive modelling of ratings from basic features and NLP features from wiki.
