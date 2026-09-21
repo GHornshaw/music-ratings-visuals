@@ -46,7 +46,9 @@ This geographic heat map shows the number of individual artists (not albums) I h
 
 ## Upcoming
 
-- Visualisation of avergae album/song length against ratings to identify if pacing has an impact on enjoyment. Requires processing of song lengths from track listings.
+- Use of wikipedia listed genres instead of my own assessments in figure #2
+
+- Visualisation of average album/song length against ratings to identify if pacing has an impact on enjoyment. Requires processing of song lengths from track listings.
 
 - Visualisation of ratings over time, coloured by genre, to identify if there have been changes to my taste since this project started. Requires backdated ordering of spreadsheet entries (sigh).
 
