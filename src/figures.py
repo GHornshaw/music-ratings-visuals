@@ -1,18 +1,6 @@
 #Provides functions for making visualisations using Seaborn and Matplot
 #Author: Gabrielle Hornshaw
 
-# Imports #
-import os
-import math
-import cv2
-import numpy as np
-import pandas as pd
-import geopandas as gpd
-import seaborn as sbn
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import matplotlib.lines as lns
-
 from utils import stack_images
 
 def create_album_bar(albums, imsize, n_wide, imspath):
@@ -140,7 +128,7 @@ def create_artist_origin_map(albums, filepath, darkmode = False):
     #Create custom colormap - dark grey for values of 0, heatmap for the rest
     c = 'dimgrey' if darkmode else 'darkgrey'
     ocmap = sbn.color_palette("viridis", as_cmap=True)
-    cmap = np.insert(ocmap(np.linspace(0, 1, geo_counts[0])), 0, mpl.colors.to_rgba(c), axis=0)
+    cmap = np.insert(ocmap(np.linspace(0, 1, geo_counts.to_list()[0])), 0, mpl.colors.to_rgba(c), axis=0)
     cmap = mpl.colors.LinearSegmentedColormap.from_list("", cmap)
 
     #Create the figure
@@ -153,7 +141,7 @@ def create_artist_origin_map(albums, filepath, darkmode = False):
     if darkmode: fig.set_facecolor("black")
 
     #Create the colorbar legend
-    sm = plt.cm.ScalarMappable(norm=plt.Normalize(vmin=0, vmax=geo_counts[0]), cmap=ocmap)
+    sm = plt.cm.ScalarMappable(norm=plt.Normalize(vmin=0, vmax=geo_counts.to_list()[0]), cmap=ocmap)
     sm._A = []
     cbax = fig.add_axes([0.15, 0.1, 0.01, 0.4])
     cb = fig.colorbar(sm, cax=cbax)
